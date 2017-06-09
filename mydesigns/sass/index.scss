@@ -1,0 +1,56 @@
+@import "ui.scss";
+
+body {
+    font-size: 62.5%;
+    text-align: center;
+}
+.hero {
+    background: url('/images/find-an-agent-hero.png');
+    background-size: cover;
+    color: $highlight-text-color;
+    header {
+        max-width: 100em;
+        margin: 0 auto;
+
+        img {
+            float: left;
+            width: 8em;
+            height: 2em;
+        }
+        ul {
+            float: right;
+            list-style: none;
+            li {
+                float: left;
+                margin: 0 .5em;
+                padding: 1em;
+            }
+        }
+        @include clearfix;
+    }
+    h1 {
+        font-size: 4em;
+        margin: 1em 0 0.5em 0;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    form {
+        padding: 2em 0 4em 0;
+        input[type="text"] {
+            padding: 1em;
+            border: 0;
+            width: 20em;
+            border-radius: 2px 0 0 2px;
+            background: $bg-color;
+            opacity: .3;
+        }
+        input[type="button"] {
+            padding:1em;
+            border:0;
+            width:6em;
+            border-radius: 0 2px 2px 0;
+            background-color: lightgreen;
+        }
+    }
+}
