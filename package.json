@@ -1,0 +1,25 @@
+{
+  "name": "webdesigns",
+  "version": "1.0.0",
+  "description": "webdesign sass pratice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RookieDouby/webdesigns.git"
+  },
+  "author": "rookiedouby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RookieDouby/webdesigns/issues"
+  },
+  "homepage": "https://github.com/RookieDouby/webdesigns#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
