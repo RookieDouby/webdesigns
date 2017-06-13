@@ -1,25 +1,27 @@
 {
-  "name": "webdesigns",
+  "name": "agentproject",
   "version": "1.0.0",
-  "description": "webdesign sass pratice",
+  "description": "agent project node-grunt-sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "./bin/build-css",
-    "watch-css": "./bin/watch-css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RookieDouby/webdesigns.git"
+    "url": "https//github.com/RookieDouby/webdesigns.git"
   },
-  "author": "rookiedouby",
+  "keywords": [
+    "sass",
+    "grunt",
+    "webdesigns"
+  ],
+  "author": "RookieDouby",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RookieDouby/webdesigns/issues"
-  },
-  "homepage": "https://github.com/RookieDouby/webdesigns#readme",
   "devDependencies": {
-    "node-sass": "^4.5.3",
-    "nodemon": "^1.11.0"
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
   }
 }

@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style: none; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  text-align: center; }
+
+.hero {
+  background: url("../images/find-an-agent-hero.png");
+  background-size: cover;
+  color: white;
+  height: 40em; }
+  .hero header {
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 10px; }
+    .hero header img {
+      float: left;
+      width: 8em;
+      height: 2em; }
+    .hero header ul {
+      float: right; }
+      .hero header ul li {
+        float: left;
+        margin: 0 .5em;
+        padding: .5em 1em;
+        border: 1px solid transparent;
+        border-radius: 2px; }
+        .hero header ul li:last-child {
+          border-color: #fff; }
+    .hero header:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .hero h1 {
+    font-size: 3em;
+    margin: 1em 0 0.5em 0; }
+  .hero h2 {
+    font-size: 2em; }
+  .hero form {
+    padding: 2em 0 4em 0; }
+    .hero form input[type="text"] {
+      padding: 1em;
+      border: 0;
+      width: 20em;
+      border-radius: 2px 0 0 2px;
+      background: #efefef;
+      opacity: .3; }
+    .hero form input[type="button"] {
+      padding: 1em;
+      border: 0;
+      width: 6em;
+      border-radius: 0 2px 2px 0;
+      background-color: lightgreen; }
+
+.numbers {
+  width: 80%;
+  margin: 0 auto; }
+  .numbers ul {
+    position: relative;
+    top: -1em;
+    background: #efefef; }
+    .numbers ul li {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      border-top: 1px solid #D9DADA;
+      border-bottom: 1px solid #D9DADA;
+      border-left: 1px solid #D9DADA; }
+      .numbers ul li:last-child {
+        border-right: 1px solid #D9DADA; }
+    .numbers ul:after {
+      content: "";
+      display: table;
+      clear: both; }

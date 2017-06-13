@@ -1,1 +1,0 @@
-node-sass --include-path scss sass/index.scss public/css/index.css
