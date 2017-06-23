@@ -11,6 +11,10 @@
     }
 }
 
+@mixin border-radius($rate) {
+    border-radius: $rate;
+}
+
 ul {
     list-style: none;
 }
