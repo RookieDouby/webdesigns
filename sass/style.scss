@@ -111,21 +111,6 @@ body {
         li {
             float:left;
             width: 33.33%;
-            &:before {
-                display: block;
-                content: "";
-                background: $color-border;
-                width: 100%;
-                height: 1px;
-                position: absolute;
-                top: 4em;
-                left: 50%;
-                margin: 0 2em;
-            }
-
-            &:last-child:before {
-                display: none;
-            }
         }
         .detail {
             .number {
